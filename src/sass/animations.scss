@@ -1,0 +1,35 @@
+/* Animations 75bolas*/
+@keyframes blink {
+  0% {
+    color: rgb(253, 0, 0);
+    font-weight: bolder;
+    font-size: larger;
+    font-size: xxx-large;
+  }
+  50% {
+    color: #070bfb;
+    font-weight: bolder;
+    font-size: larger;
+    font-size: xxx-large;
+  }
+  100% {
+    color: rgb(2, 2, 2);
+    font-weight: bolder;
+    font-size: larger;
+    font-size: xxx-large;
+
+  }
+}
+
+@keyframes bounce {
+  0% {
+    bottom: 8rem;
+  }
+  50% {
+    bottom: 8.5rem;
+  }
+  100% {
+    bottom: 8rem;
+  }
+}
+ 
